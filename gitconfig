@@ -15,6 +15,7 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
+	trustctime = false
 [merge]
   ff = only
 [commit]
@@ -25,3 +26,6 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	email = khalen@gmail.com
+	name = Jon Davis
